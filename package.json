@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sync:figma": "node scripts/sync-figma-variables.mjs",
+    "build:tokens": "style-dictionary build --config packages/tokens/style-dictionary.config.cjs"
+  },
+  "devDependencies": {
+    "style-dictionary": "latest"
+  }
+}
